@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #007BFF;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+input {
+  margin: 10px;
+}
+
+button {
+  margin: 10px;
+}
+
+li {
+  list-style-type: none;
+  margin: 5px 0;
+}
+
+span {
+  cursor: pointer;
+}
+
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+span {
+  cursor: pointer;
+}
+
+span.completed {
+  text-decoration: line-through;
+}
+
+button.delete {
+  margin-left: 10px;
+  background-color: #dc3545;
+}
+
+button.delete:hover {
+  background-color: #c82333;
+}
